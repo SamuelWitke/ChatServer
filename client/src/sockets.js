@@ -9,7 +9,7 @@ const Singleton = (() => {
      const AppConfig = {
         PROTOCOL: "ws",
         HOST: "localhost",
-        PORT: "4000/"
+        PORT: "9000/"
       }
       if(process.env.NODE_ENV === "production"){
          AppConfig.HOST = ""; 
